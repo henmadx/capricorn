@@ -37,7 +37,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="capricorn" \
     PRODUCT_NAME="capricorn" \
     PRIVATE_BUILD_DESC="capricorn-user 8.0.0 OPR1.170623.032 V11.0.2.0.OAGCNXM release-keys"
 
