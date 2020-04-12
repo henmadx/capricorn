@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_capricorn.mk
+    $(LOCAL_DIR)/havoc_capricorn.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_capricorn-user \
-    superior_capricorn-userdebug \
-    superior_capricorn-eng
+    havoc_capricorn-user \
+    havoc_capricorn-userdebug \
+    havoc_capricorn-eng

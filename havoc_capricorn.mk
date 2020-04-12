@@ -21,14 +21,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from capricorn device
 $(call inherit-product, device/xiaomi/capricorn/device.mk)
 
-# Inherit some common Superior stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+# Inherit some common Havoc stuff.
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 # Target Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := superior_capricorn
+PRODUCT_NAME := havoc_capricorn
 PRODUCT_DEVICE := capricorn
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 5s
@@ -43,6 +43,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "Xiaomi/capricorn/capricorn:8.0.0/OPR1.170623.032/V11.0.2.0.OAGCNXM:user/release-keys"
 
-# Maintainer SuperiorOS for Capricorn
+# Maintainer HavocOS for Capricorn
 PRODUCT_PROPERTY_OVERRIDES += \
-        ro.superior.maintainer=henmadx
+        ro.havoc.maintainer=henmadx
