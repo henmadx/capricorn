@@ -30,5 +30,8 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 # Kernel
 TARGET_KERNEL_CONFIG := capricorn_defconfig
 
+# Animation for offline charging
+TARGET_PIXEL_CHARGE_ANIM := true
+
 # inherit from the proprietary version
 -include vendor/xiaomi/capricorn/BoardConfigVendor.mk
