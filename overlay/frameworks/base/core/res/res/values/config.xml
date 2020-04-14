@@ -123,4 +123,7 @@
 
     <!-- Period of time in which to consider light samples in milliseconds. -->
     <integer name="config_autoBrightnessAmbientLightHorizon">5000</integer>
+
+    <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->	
+    <bool name="config_cleanupUnusedFingerprints">false</bool>
 </resources>
