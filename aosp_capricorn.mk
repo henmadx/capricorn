@@ -43,7 +43,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "Xiaomi/capricorn/capricorn:8.0.0/OPR1.170623.032/V11.0.2.0.OAGCNXM:user/release-keys"
-
-# Maintainer aosp for Capricorn
-PRODUCT_PROPERTY_OVERRIDES += \
-        ro.aosp.maintainer=henmadx
