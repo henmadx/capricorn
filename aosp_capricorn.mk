@@ -24,9 +24,20 @@ $(call inherit-product, device/xiaomi/capricorn/device.mk)
 # Inherit some common aosp stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# Target Boot Animation
+# I need ur love and money 
+EVO_DONATE_URL := https://www.paypal.me/henmadx
+EVO_MAINTAINER := "Henma"
+EVO_SUPPORT_URL := https://t.me/EvolutionX
+
+# For u baby animation res default
 TARGET_BOOT_ANIMATION_RES := 1080
+
+# If u want gapps use this baby
 TARGET_GAPPS_ARCH := arm64
+
+# Additional baby
+TARGET_INCLUDE_WIFI_EXT := true
+TARGET_INCLUDE_STOCK_ARCORE := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_capricorn
