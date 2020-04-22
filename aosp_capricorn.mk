@@ -35,10 +35,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # If u want gapps use this baby
 TARGET_GAPPS_ARCH := arm64
 
-# Additional baby
-TARGET_INCLUDE_WIFI_EXT := true
-TARGET_INCLUDE_STOCK_ARCORE := true
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_capricorn
 PRODUCT_DEVICE := capricorn
