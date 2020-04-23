@@ -28,6 +28,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 EVO_DONATE_URL := https://www.paypal.me/henmadx
 EVO_MAINTAINER := "Henma"
 EVO_SUPPORT_URL := https://t.me/EvolutionX
+CUSTOM_BUILD_TYPE := Buai_LajuLaju
 
 # For u baby animation res default
 TARGET_BOOT_ANIMATION_RES := 1080
