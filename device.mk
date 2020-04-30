@@ -66,6 +66,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     OPScreenRecord
 
+# Papers
+PRODUCT_PACKAGES += \
+    Papers
+
 # Touch HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.xiaomi_8996
